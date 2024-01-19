@@ -98,12 +98,12 @@ header .container{
   height: 100%;
 }
 
-.logo-up{
+.logo{
   align-items: center;
   width: 25%
 }
 
-header .logo-up #logo{
+header .logo #logo{
   width: 100px;
   height: 50px;
 } 
@@ -251,7 +251,7 @@ footer{
 .footer_up{
   width: 1000px;
   height: 250px;
-  border-bottom: 2px solid #7289db ;
+  border-bottom: 2px solid #92A1D9;
 }
 
 .footer_up .left-text{
@@ -259,15 +259,29 @@ footer{
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  background-color: #e0767f;
 }
 
 .left-text h3{
   text-align: center;
   margin-bottom: 20px;
+  color: #92A1D9;
 }
 .left-text .language{
   margin-bottom: 10px;
+  color:white;
+}
+.left-text .language img{
+  width: 25px;
+}
+
+.left-text .socialmedia{
+  color: white;
+  padding: 10px;
+}
+
+.left-text .socialmedia div{
+  display: inline-block;
+  margin-right: 20px;
 }
 
 .footer_up .right-text{
@@ -276,7 +290,13 @@ footer{
 
 .right-text .footer.column{
   width: calc(100%/4);
-  background-color: rgb(29, 155, 146);
+  line-height: normal;
+  color: white;
+}
+
+.right-text ul h4{
+  color: #92A1D9;
+  padding-bottom: 3px;
 }
 
 .right-text ul li{
@@ -288,10 +308,5 @@ footer{
   height: 100px;
   justify-content: space-between;
   align-items: center;
-  background-color: aquamarine;
 }
 
-.logo,
-.sign_in{
-  background-color: pink;
-}

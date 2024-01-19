@@ -85,15 +85,12 @@ body{
 .wave_gray{
   color: #f6f6f6;
   transform: translateY(5px);
+  
 }
 
-.wave_white{
-  background-color: #f6f6f6;
-  color: #ffffff;
-  transform: translateY(-54px);
+.wave_gray.rotate{
+  transform: rotate(.5turn);
 }
-
-
 
 
 /* Header */
@@ -316,7 +313,7 @@ footer{
   color: white;
 }
 
-.right-text ul h4{
+.right-text ul h3{
   color: #92A1D9;
   padding-bottom: 3px;
 }

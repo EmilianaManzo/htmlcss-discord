@@ -48,7 +48,7 @@ body{
   background-color: black;
 }
 .btn.btn_black:hover{
-  background-color: rgb(24, 23, 23);
+  background-color: rgb(40, 39, 39);
 }
 
 .btn.btn_small{
@@ -60,23 +60,24 @@ body{
   padding: 10px 16px;
 }
 
-
+.btn.btn_blue{
+  color: rgba(255, 255,255, 0.9);
+  background-color:#92A1D9;
+}
 
 
 .btn.btn_download::before{
   content: "\2B63";
   padding-right: 3px;
-  /* color: white; */
 }
 
 
 .info_section h1{
-  text-align: center;
-  margin: 20px;
+  margin: 0 50px 20px 0;
+  font-size: 2em;
 }
 
 .info_section p{
-  text-align: center;
   margin: 0 0 10px 0 ;
 }
 
@@ -187,7 +188,7 @@ nav li a:hover{
 }
 
 .info_section.big_gray{
-  height: 600px;
+  height: 800px;
   background-color: lightgray;
   justify-content: center;
   align-items: center;
@@ -199,26 +200,42 @@ nav li a:hover{
 
 .info_section .container .text{
   width: 30%;
-  background-color: lightskyblue;
   flex-direction: column;
   align-items: center;
+}
+
+.info_section.place h1,
+.info_section.fandom h1 {
+  margin: 20px 50px 20px 0;
 }
 
 .info_section.big_gray .big_container{
-  height: 550px;
+  height: 750px;
+  padding: 0 60px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: darkgreen;
 }
 
-/* .btn.btn_blu:hover{
-  background-color: da inserire domani
-}  */
+.info_section.big_gray h1{
+  margin:20px auto;
+}
+
+.info_section.big_gray p{
+  padding: 2px 110px;
+  text-align: center;
+  font-size: .8em;
+}
+
+.info_section.big_gray .background{
+  background-image: url(../img/stars.svg);
+  background-size: 340px;
+  background-position: top;
+}
 
 .big_container h3{
   text-align: center;
-  margin: 20px;
+  margin: 9px 23px 0px 16px;
 }
 
 /* Footer */

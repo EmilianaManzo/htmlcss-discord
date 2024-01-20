@@ -51,6 +51,14 @@ body{
   background-color: rgb(40, 39, 39);
 }
 
+.btn.btn_blue{
+  color: rgba(255, 255,255, 0.9);
+  background-color:#92A1D9;
+}
+.btn.btn_blue:hover{
+  background-color:#b0c0f9;
+}
+
 .btn.btn_small{
   padding: 7.5px 12px;
 }
@@ -60,18 +68,10 @@ body{
   padding: 10px 16px;
 }
 
-.btn.btn_blue{
-  color: rgba(255, 255,255, 0.9);
-  background-color:#92A1D9;
-}
-
-
 .btn.btn_download::before{
   content: "\2B63";
   padding-right: 3px;
 }
-
-
 
 .info_section h1{
   margin: 0 50px 20px 0;
@@ -126,6 +126,7 @@ nav{
   padding: 5px 10px;
   flex-grow: >1;
 }
+
 header nav ul {
   justify-content: space-around;
   align-items: center;
@@ -244,13 +245,9 @@ nav li a:hover{
 
 .info_section.big_gray .background{
   background-image: url(../img/stars.svg);
-  background-size: 340px;
-  background-position: top;
-}
-
-.big_container h3{
-  text-align: center;
-  margin: 9px 23px 0px 16px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 30px;
 }
 
 .big_container .download {
@@ -301,6 +298,10 @@ footer{
 .left-text .socialmedia div{
   display: inline-block;
   margin-right: 20px;
+}
+
+.socialmedia a i {
+  color: white;
 }
 
 .footer_up .right-text{
